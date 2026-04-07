@@ -6,6 +6,11 @@ public class NumToWords {
         switchCase(100); // Variation for default section execution
         switchCase(1);
     }
+
+    /**
+     * Method
+     * @param num
+     */
     public static void switchCase(int num) {
 
         switch (num) {
