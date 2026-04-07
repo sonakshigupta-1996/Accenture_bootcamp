@@ -6,8 +6,9 @@ public class VariableAssignmentActivity {
         int j; //declare j
         j=7;
         int sum = i+j;
-
+        j = 5;//update j
 
         System.out.println("sum of numbers: "+sum);
+        System.out.println("Updated value of j "+j);
     }
 }
