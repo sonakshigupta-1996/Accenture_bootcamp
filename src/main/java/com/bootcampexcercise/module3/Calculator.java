@@ -5,15 +5,15 @@ public class Calculator {
     // Step 1: Constant
     public static final String CALC_TYPE_BASIC = "BASIC";
 
-    // Step 2: Variable
+    // Step 2: Variable to store calculator type
     private String calculatorType;
 
-    // Step 3: Constructor
+    // Step 3: Constructor to initialize calculator type
     public Calculator(String calculatorType) {
         this.calculatorType = calculatorType;
     }
 
-    // Step 4: Getter
+    // Step 4: Getter method to return calculator type
     public String getCalculatorType() {
         return calculatorType;
     }

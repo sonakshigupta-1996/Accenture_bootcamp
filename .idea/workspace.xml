@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="282a8c42-b1d2-4dc9-a4d9-0edd33dcf407" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootcampexcercise/module3/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootcampexcercise/module5/AbstractActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootcampexcercise/module5/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootcampexcercise/module5/Employee_I.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootcampexcercise/module5/InheritanceActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootcampexcercise/module5/Person_I.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootcampexcercise/module5/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootcampexcercise/module5/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bootcampexcercise/module3/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bootcampexcercise/module3/Calculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,12 +39,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AbstractActivity.executor": "Run",
     "Application.AddWholeNum.executor": "Run",
     "Application.Calculator.executor": "Run",
     "Application.Car.executor": "Run",
     "Application.DateActivity.executor": "Run",
     "Application.FindInArray.executor": "Run",
     "Application.FindLargest.executor": "Run",
+    "Application.InheritanceActivity.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MultiplicationTable.executor": "Run",
     "Application.NumToWords.executor": "Run",
@@ -45,6 +54,7 @@
     "Application.PrintNumWithWhile.executor": "Run",
     "Application.Test.executor": "Run",
     "Application.VariableAssignmentActivity.executor": "Run",
+    "Application.inheritanceActivity.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
