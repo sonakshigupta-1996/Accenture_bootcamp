@@ -5,7 +5,7 @@ public class InheritanceActivity {
 
         // Create Person object
         // Set name as Sarah Johnson and age as 21
-        Person_I myPerson = new Person_I("Sarah Johnson", 21);
+        Person_I myPerson = new Person_I("Sonakshi", 30);
 
         // Print Person details
         System.out.println("Person Info:");
@@ -16,7 +16,7 @@ public class InheritanceActivity {
 
         // Create Employee object
         // Set salary as 70000, title as Developer, age as 32 and name as Shawn Cun
-        Employee_I myEmployee = new Employee_I("Shawn Cun", 32, "Developer", 70000);
+        Employee_I myEmployee = new Employee_I("Micky", 32, "Developer", 2000);
 
         // Print Employee details
         System.out.println("Employee Info:");
