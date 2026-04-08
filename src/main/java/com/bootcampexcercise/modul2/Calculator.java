@@ -4,12 +4,12 @@ import java.util.Scanner;
 public class Calculator {
 
     public static void main(String[] args) {
-
+        // Step 1: Create Scanner object to take input
         Scanner sc = new Scanner(System.in);
-
+        // Step 2: Ask user to enter first number
         System.out.print("Enter first number: ");
         int a = sc.nextInt();
-
+        // Step 3: Ask user to enter second number
         System.out.print("Enter second number: ");
         int b = sc.nextInt();
 
@@ -22,22 +22,22 @@ public class Calculator {
         modulus(a, b);
     }
 
-    // Method 1
+    // Define Method 1
     public static void sum(int a, int b) {
         System.out.println("Sum = " + (a + b));
     }
 
-    // Method 2
+    // Define Method 2
     public static void subtract(int a, int b) {
         System.out.println("Subtract = " + (a - b));
     }
 
-    // Method 3
+    // Define Method 3
     public static void multiply(int a, int b) {
         System.out.println("Multiply = " + (a * b));
     }
 
-    // Method 4
+    // Define Method 4
     public static void divide(int a, int b) {
         if (b != 0) {
             System.out.println("Divide = " + (a / b));
@@ -46,7 +46,7 @@ public class Calculator {
         }
     }
 
-    // Method 5
+    // Define Method 5
     public static void modulus(int a, int b) {
         System.out.println("Modulus = " + (a % b));
     }
