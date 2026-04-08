@@ -6,14 +6,17 @@ public class FindLargest {
         int x = 10;
         int y = 89;
         int z = 2;
-        // Step 2: Compare x and y
-        if(x>y){
-            // This runs if x is greater than y
-            System.out.println("Largest value");
-        }
-        else{
-            // This runs if y is greater than or equal to x
-            System.out.println("Final largest value");
+        // Step 2: Check if x is largest
+        if (x >= y && x >= z) {
+            System.out.println("Largest value is: " + x);
+
+            // Step 3: Check if y is largest
+        } else if (y >= x && y >= z) {
+            System.out.println("Largest value is: " + y);
+
+            // Step 4: Otherwise z is largest
+        } else {
+            System.out.println("Largest value is: " + z);
         }
     }
 }
