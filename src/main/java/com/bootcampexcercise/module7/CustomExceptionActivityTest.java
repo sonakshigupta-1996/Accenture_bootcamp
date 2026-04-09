@@ -45,7 +45,7 @@ public class CustomExceptionActivityTest {
     }
 }
 
-/*
+/* Output is:
 Welcome to Payroll program
 Welcome to Payroll program
 You are not allowed to use this program
