@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="282a8c42-b1d2-4dc9-a4d9-0edd33dcf407" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootcampexcercise/module8/HashSetActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootcampexcercise/module3/CalculatorClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootcampexcercise/module3/CarInstance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bootcampexcercise/module3/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bootcampexcercise/module3/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bootcampexcercise/module3/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bootcampexcercise/module3/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bootcampexcercise/module5/AbstractActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bootcampexcercise/module5/AbstractActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bootcampexcercise/module5/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bootcampexcercise/module5/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bootcampexcercise/module5/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bootcampexcercise/module5/Rectangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +43,9 @@
     "Application.AnimalActivity.executor": "Run",
     "Application.ArithmeticExceptionActivity.executor": "Run",
     "Application.Calculator.executor": "Run",
+    "Application.CalculatorClient.executor": "Run",
     "Application.Car.executor": "Run",
+    "Application.CarInstance.executor": "Run",
     "Application.CustomExceptionActivityTest.executor": "Run",
     "Application.DateActivity.executor": "Run",
     "Application.FindInArray.executor": "Run",

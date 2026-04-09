@@ -6,15 +6,16 @@ public class AbstractActivity {
 
         Rectangle rectangle = new Rectangle();
         rectangle.setColor("Red");
+        rectangle.setLength(20);
+        rectangle.setBreadth(30);
 
         System.out.println("Rectangle Color: " + rectangle.getColor());
-        System.out.println("Area: " + rectangle.calculateArea());
-        System.out.println("Perimeter: " + rectangle.calculatePerimeter());
-
-        System.out.println("-------------------");
+        System.out.println("Area of rectangle: " + rectangle.calculateArea());
+        System.out.println("Area of Perimeter: " + rectangle.calculatePerimeter());
 
         Circle circle = new Circle();
         circle.setColor("Blue");
+        circle.setRadius(5);
 
         System.out.println("Circle Color: " + circle.getColor());
         System.out.println("Area: " + circle.calculateArea());
@@ -24,10 +25,9 @@ public class AbstractActivity {
 
 /* Output is:
 Rectangle Color: Red
-Area: 15.0
-Perimeter: 16.0
--------------------
+Area of rectangle: 600.0
+Area of Perimeter: 100.0
 Circle Color: Blue
-Area: 50.26548245743669
-Perimeter: 25.132741228718345
+Area: 78.53981633974483
+Perimeter: 31.41592653589793
  */

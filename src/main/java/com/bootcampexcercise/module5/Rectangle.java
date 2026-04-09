@@ -3,16 +3,25 @@ package com.bootcampexcercise.module5;
 public class Rectangle extends Shape {
 
     // Attributes
-    private double length = 5;
-    private double width = 3;
-
-    // Implement area
+    private double length;
+    private double breadth;
+    // Setter methods
+    public void setLength(double length) {
+        this.length = length;
+    }
+    public void setBreadth(double breadth) {
+        this.breadth = breadth;
+    }
+    // Area
     public double calculateArea() {
-        return length * width;
+        return length * breadth;
     }
 
-    // Implement perimeter
+    // Perimeter
     public double calculatePerimeter() {
-        return 2 * (length + width);
+        return 2 * (length + breadth);
     }
 }
+
+
+
