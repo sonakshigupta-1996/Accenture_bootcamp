@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="282a8c42-b1d2-4dc9-a4d9-0edd33dcf407" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootcampexcercise/module6/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootcampexcercise/module6/AnimalActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootcampexcercise/module6/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootcampexcercise/module6/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootcampexcercise/module6/Mammal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bootcampexcercise/module6/AnimalActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bootcampexcercise/module6/AnimalActivity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

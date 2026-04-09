@@ -24,3 +24,14 @@ public class AnimalActivity {
         mammal.animalIsSpeaking();
     }
 }
+/* Output is:
+Animal with name: Tommy is ...
+Cat is sleeping!
+Animal with name: Tommy is ...
+Cat says: 'Meow Meow'!
+------------------
+Animal with name: Tommy is ...
+Dog is sleeping!
+Animal with name: Tommy is ...
+Dog says: 'Bark Bark'!
+*/
