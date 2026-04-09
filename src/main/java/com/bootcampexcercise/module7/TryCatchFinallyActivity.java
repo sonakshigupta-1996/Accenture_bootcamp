@@ -33,3 +33,17 @@ public class TryCatchFinallyActivity {
     }
 }
 
+/* Output is:
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+Exception occurred: Array index is out of bounds!
+Finally block executed (runs always)
+*/
