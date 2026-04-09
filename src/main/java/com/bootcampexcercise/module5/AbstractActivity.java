@@ -21,3 +21,13 @@ public class AbstractActivity {
         System.out.println("Perimeter: " + circle.calculatePerimeter());
     }
 }
+
+/* Output is:
+Rectangle Color: Red
+Area: 15.0
+Perimeter: 16.0
+-------------------
+Circle Color: Blue
+Area: 50.26548245743669
+Perimeter: 25.132741228718345
+ */

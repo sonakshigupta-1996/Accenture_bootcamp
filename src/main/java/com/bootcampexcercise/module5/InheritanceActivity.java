@@ -33,4 +33,18 @@ public class InheritanceActivity {
         System.out.println("Age: " + myPerson.getAge());
     }
 }
-
+/* Output is:
+Person Info:
+Name: Sonakshi
+Age: 30
+-------------------------
+Employee Info:
+Name: Micky
+Age: 32
+Title: Developer
+Salary: 2000
+-------------------------
+Person Info Again:
+Name: Sonakshi
+Age: 30
+*/
