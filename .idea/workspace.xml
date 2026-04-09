@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="282a8c42-b1d2-4dc9-a4d9-0edd33dcf407" name="Changes" comment="" />
+    <list default="true" id="282a8c42-b1d2-4dc9-a4d9-0edd33dcf407" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootcampexcercise/module7/ArithmeticExceptionActivity.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +35,7 @@
     "Application.AbstractActivity.executor": "Run",
     "Application.AddWholeNum.executor": "Run",
     "Application.AnimalActivity.executor": "Run",
+    "Application.ArithmeticExceptionActivity.executor": "Run",
     "Application.Calculator.executor": "Run",
     "Application.Car.executor": "Run",
     "Application.DateActivity.executor": "Run",
@@ -45,6 +48,7 @@
     "Application.OperatorActivity.executor": "Run",
     "Application.PrintNumWithWhile.executor": "Run",
     "Application.Test.executor": "Run",
+    "Application.TryCatchFinallyActivity.executor": "Run",
     "Application.VariableAssignmentActivity.executor": "Run",
     "Application.inheritanceActivity.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
