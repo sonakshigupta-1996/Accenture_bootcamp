@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="282a8c42-b1d2-4dc9-a4d9-0edd33dcf407" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootcampexcercise/module8/ListActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootcampexcercise/module8/HashSetActivity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +42,9 @@
     "Application.DateActivity.executor": "Run",
     "Application.FindInArray.executor": "Run",
     "Application.FindLargest.executor": "Run",
+    "Application.HashSetActivity.executor": "Run",
     "Application.InheritanceActivity.executor": "Run",
+    "Application.ListActivity.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MultiplicationTable.executor": "Run",
     "Application.NumToWords.executor": "Run",
