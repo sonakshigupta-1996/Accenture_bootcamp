@@ -36,6 +36,10 @@ public class StudentArrayList {
         System.out.println("\nHighest Grade Student:"+std.get().getName());
     }
 
+   /* private static void removeDuplicatesById(ArrayList<Student> students) {
+        students.stream().distinct(Student::getId).toList();
+    }*/
+
     private static void printStudents(ArrayList<Student> students) {
         students.forEach(s -> {
             System.out.println("id: " + s.getId() + " --name: " + s.getName() + " --grade: " + s.getGrade());
