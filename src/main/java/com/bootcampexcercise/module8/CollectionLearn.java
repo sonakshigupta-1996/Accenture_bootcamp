@@ -1,30 +1,35 @@
 package com.bootcampexcercise.module8;
 import java.util.*;
 public class CollectionLearn {
-    // Collections
+    // Step 1: Create collections
     ArrayList<String> list = new ArrayList<>();
     HashSet<String> set = new HashSet<>();
     HashMap<Integer, String> map = new HashMap<>();
 
-    //  Add values (no duplicates)
-    public void addValues() {
+    //  Add initial 10 values
+    public void addInitialValues() {
 
-        String[] values = {"A", "B", "C", "D", "E", "F", "G", "H", "I", "J"};
+        String[] values = {"A","B","C","D","E","F","G","H","I","J"};
 
         for (int i = 0; i < values.length; i++) {
+            addValue(values[i]); // reuse method
+        }
+    }
 
-            // List - check manually
-            if (!list.contains(values[i])) {
-                list.add(values[i]);
-            }
+    //  Add method (no duplicates)
+    public void addValue(String value) {
 
-            // Set - auto prevents duplicates
-            set.add(values[i]);
+        // List
+        if (!list.contains(value)) {
+            list.add(value);
+        }
 
-            // Map -  key unique
-            if (!map.containsValue(values[i])) {
-                map.put(i, values[i]);
-            }
+        // Set
+        set.add(value); // already prevents duplicates
+
+        // Map (avoid duplicate values)
+        if (!map.containsValue(value)) {
+            map.put(map.size() + 1, value);
         }
     }
 
@@ -48,16 +53,14 @@ public class CollectionLearn {
     }
 
     //  Remove values
-    public void removeValues() {
+    public void removeValue(String value) {
 
-        list.remove("A");
-        set.remove("A");
-
-        // remove from map using value
-        map.values().remove("A");
+        list.remove(value);
+        set.remove(value);
+        map.values().remove(value);
     }
 
-    // Replace values (no duplicates allowed)
+    //  Replace values (no duplicates)
     public void replaceValue(String oldVal, String newVal) {
 
         // List
@@ -85,26 +88,35 @@ public class CollectionLearn {
         }
     }
 
-    //  Main method
+    //  MAIN METHOD
     public static void main(String[] args) {
 
         CollectionLearn obj = new CollectionLearn();
 
-        // Add values
-        obj.addValues();
+        // Step 2: Add 10 values
+        obj.addInitialValues();
 
-        // Print all
+        // Step 3: Print all
         System.out.println("Initial Data:");
         obj.printAll();
 
-        // Remove values
-        obj.removeValues();
-        System.out.println("\nAfter Removing 'A':");
+        // Step 4: Add new value (duplicate test)
+        obj.addValue("A"); // duplicate
+        obj.addValue("K"); // new
+
+        System.out.println("\nAfter Adding Values:");
         obj.printAll();
 
-        // Replace values
-        obj.replaceValue("B", "Z");
-        System.out.println("\nAfter Replacing B with Z:");
+        // Step 5: Remove value
+        obj.removeValue("B");
+
+        System.out.println("\nAfter Removing B:");
+        obj.printAll();
+
+        // Step 6: Replace value
+        obj.replaceValue("C", "Z");
+
+        System.out.println("\nAfter Replacing C with Z:");
         obj.printAll();
     }
 }
@@ -135,19 +147,20 @@ I
 J
 
 HashMap:
-0 -> A
-1 -> B
-2 -> C
-3 -> D
-4 -> E
-5 -> F
-6 -> G
-7 -> H
-8 -> I
-9 -> J
+1 -> A
+2 -> B
+3 -> C
+4 -> D
+5 -> E
+6 -> F
+7 -> G
+8 -> H
+9 -> I
+10 -> J
 
-After Removing 'A':
+After Adding Values:
 ArrayList:
+A
 B
 C
 D
@@ -157,8 +170,10 @@ G
 H
 I
 J
+K
 
 HashSet:
+A
 B
 C
 D
@@ -168,21 +183,24 @@ G
 H
 I
 J
+K
 
 HashMap:
-1 -> B
-2 -> C
-3 -> D
-4 -> E
-5 -> F
-6 -> G
-7 -> H
-8 -> I
-9 -> J
+1 -> A
+2 -> B
+3 -> C
+4 -> D
+5 -> E
+6 -> F
+7 -> G
+8 -> H
+9 -> I
+10 -> J
+11 -> K
 
-After Replacing B with Z:
+After Removing B:
 ArrayList:
-Z
+A
 C
 D
 E
@@ -191,8 +209,10 @@ G
 H
 I
 J
+K
 
 HashSet:
+A
 C
 D
 E
@@ -201,17 +221,55 @@ G
 H
 I
 J
-Z
+K
 
 HashMap:
-1 -> Z
-2 -> C
-3 -> D
-4 -> E
-5 -> F
-6 -> G
-7 -> H
-8 -> I
-9 -> J
+1 -> A
+3 -> C
+4 -> D
+5 -> E
+6 -> F
+7 -> G
+8 -> H
+9 -> I
+10 -> J
+11 -> K
+
+After Replacing C with Z:
+ArrayList:
+A
+Z
+D
+E
+F
+G
+H
+I
+J
+K
+
+HashSet:
+A
+D
+E
+F
+G
+H
+I
+J
+Z
+K
+
+HashMap:
+1 -> A
+3 -> Z
+4 -> D
+5 -> E
+6 -> F
+7 -> G
+8 -> H
+9 -> I
+10 -> J
+11 -> K
 
  */
