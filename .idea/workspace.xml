@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="282a8c42-b1d2-4dc9-a4d9-0edd33dcf407" name="Changes" comment="" />
+    <list default="true" id="282a8c42-b1d2-4dc9-a4d9-0edd33dcf407" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootcampexcercise/module9/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootcampexcercise/module9/PersonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootcampexcercise/module9/StudentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,6 +63,7 @@
     "Application.TryCatchFinallyActivity.executor": "Run",
     "Application.VariableAssignmentActivity.executor": "Run",
     "Application.inheritanceActivity.executor": "Run",
+    "JUnit.PersonTest.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -66,7 +72,7 @@
     "onboarding.tips.debug.path": "D:/java_idealC/Accenture_bootcamp/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CollectionLearn">
+  <component name="RunManager" selected="JUnit.PersonTest">
     <configuration name="CollectionLearn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bootcampexcercise.module8.CollectionLearn" />
       <module name="Accenture_bootcamp" />
@@ -93,8 +99,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PersonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Accenture_bootcamp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bootcampexcercise.module9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bootcampexcercise.module9" />
+      <option name="MAIN_CLASS_NAME" value="com.bootcampexcercise.module9.PersonTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PersonTest" />
         <item itemvalue="Application.CollectionLearn" />
         <item itemvalue="Application.StudentArrayList" />
       </list>
