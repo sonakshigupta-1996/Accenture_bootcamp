@@ -5,10 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="282a8c42-b1d2-4dc9-a4d9-0edd33dcf407" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootcampexcercise/module9/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootcampexcercise/module9/PersonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootcampexcercise/module9/StudentTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootcampexcercise/module10/AbstractActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootcampexcercise/module10/Bike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootcampexcercise/module10/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootcampexcercise/module10/CalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootcampexcercise/module10/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootcampexcercise/module10/ElectronicItemDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootcampexcercise/module10/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootcampexcercise/module10/EmployeeList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootcampexcercise/module10/InterfaceActivityClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootcampexcercise/module10/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootcampexcercise/module10/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootcampexcercise/module10/Vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +54,8 @@
     "Application.CollectionLearn.executor": "Run",
     "Application.CustomExceptionActivityTest.executor": "Run",
     "Application.DateActivity.executor": "Run",
+    "Application.ElectronicItemDetails.executor": "Run",
+    "Application.EmployeeList.executor": "Run",
     "Application.FindInArray.executor": "Run",
     "Application.FindLargest.executor": "Run",
     "Application.HashSetActivity.executor": "Run",
@@ -63,6 +73,7 @@
     "Application.TryCatchFinallyActivity.executor": "Run",
     "Application.VariableAssignmentActivity.executor": "Run",
     "Application.inheritanceActivity.executor": "Run",
+    "JUnit.CalculatorTest.executor": "Run",
     "JUnit.PersonTest.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -72,13 +83,13 @@
     "onboarding.tips.debug.path": "D:/java_idealC/Accenture_bootcamp/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.PersonTest">
-    <configuration name="CollectionLearn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bootcampexcercise.module8.CollectionLearn" />
+  <component name="RunManager" selected="Application.InterfaceActivityClass">
+    <configuration name="AbstractActivity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bootcampexcercise.module10.AbstractActivity" />
       <module name="Accenture_bootcamp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bootcampexcercise.module8.*" />
+          <option name="PATTERN" value="com.bootcampexcercise.module10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bootcampexcercise.module8.StudentArrayList" />
+    <configuration name="ElectronicItemDetails" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bootcampexcercise.module10.ElectronicItemDetails" />
       <module name="Accenture_bootcamp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bootcampexcercise.module8.*" />
+          <option name="PATTERN" value="com.bootcampexcercise.module10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,16 +110,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EmployeeList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bootcampexcercise.module10.EmployeeList" />
       <module name="Accenture_bootcamp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bootcampexcercise.module9.*" />
+          <option name="PATTERN" value="com.bootcampexcercise.module10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.bootcampexcercise.module9" />
-      <option name="MAIN_CLASS_NAME" value="com.bootcampexcercise.module9.PersonTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InterfaceActivityClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bootcampexcercise.module10.InterfaceActivityClass" />
+      <module name="Accenture_bootcamp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bootcampexcercise.module10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Accenture_bootcamp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bootcampexcercise.module10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bootcampexcercise.module10" />
+      <option name="MAIN_CLASS_NAME" value="com.bootcampexcercise.module10.CalculatorTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -116,9 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PersonTest" />
-        <item itemvalue="Application.CollectionLearn" />
-        <item itemvalue="Application.StudentArrayList" />
+        <item itemvalue="Application.InterfaceActivityClass" />
+        <item itemvalue="Application.ElectronicItemDetails" />
+        <item itemvalue="Application.EmployeeList" />
+        <item itemvalue="JUnit.CalculatorTest" />
+        <item itemvalue="Application.AbstractActivity" />
       </list>
     </recent_temporary>
   </component>
